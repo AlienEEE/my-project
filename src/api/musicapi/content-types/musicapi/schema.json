@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "music",
+  "info": {
+    "singularName": "musicapi",
+    "pluralName": "music",
+    "displayName": "music",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "time": {
+      "type": "decimal"
+    }
+  }
+}
